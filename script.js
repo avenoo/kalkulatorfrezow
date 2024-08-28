@@ -14,7 +14,7 @@ function calculate() {
     const a = length / Math.sqrt(3);
     const resultA = a.toFixed(3);
     const result2A = (2 * a).toFixed(2);
-    const adjustedDiameter = (diameter + 20);
+    const adjustedDiameter = (1.25*diameter);
 
     const result = `Długość krawędzi sześcianu: ${resultA}\nDługość dłuższej przekątnej: ${result2A}`;
     

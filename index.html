@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obliczenia sześcianu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Obliczenia frezu fanuc</h1>
+        
+        <div id="inputs">
+            <label for="diameter">Średnica materiału:</label>
+            <input type="number" id="diameter" placeholder="Wprowadź średnicę">
+            
+            <label for="length">Rozmiar klucza:</label>
+            <input type="number" id="length" placeholder="Wprowadź długość">
+            
+            <button onclick="calculate()">Oblicz</button>
+            
+            <p id="result"></p>
+            <pre id="program-text" class="hidden"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

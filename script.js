@@ -27,7 +27,7 @@ M303 S1500;
 G0 X${adjustedDiameter}. Z-10.;
 G94;
 G112;
-G1 Z-10. F1000;
+G1 Z10. F1000;
 G41 G1;
 X${result2A} C0.;
 X${resultA} C-${length / 2};
